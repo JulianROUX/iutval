@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# create cert for CA (once)
+#openssl req -nodes -new -x509 -keyout ca.key -out ca.crt -days 3650
+
+# create server cert
+openssl req -nodes -new -keyout lievin.key -out lievin.csr -days 3650
+
+# sign cert request with CA
+openssl ca -cert ca.crt -keyfile ca.key -out lievin.pem -in lievin.csr
+mv lievin.pem lievin.crt
+
+#exporting
+openssl pkcs12 -export -in lievin.crt -inkey lievin.key -out lievin.p12 -name "Lievin's certificate" -certfile ca.crt

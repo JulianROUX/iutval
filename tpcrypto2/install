@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cp lievin.key /etc/ssl/private/lievin.pem
+cp lievin.crt /etc/ssl/certs/lievin.pem
+
+/etc/init.d/apache2 stop
+/etc/init.d/apache2 start
+/etc/init.d/dovecot stop
+/etc/init.d/dovecot start

@@ -1,0 +1,21 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "iut-valence.net" IN {
+     type master;
+     file "/etc/bind/iut-valence.net.zone";
+     allow-query { any; };
+     allow-transfer { any; };
+};
+
+zone "0.100.24.172.in-addr.arpa." IN {
+     type master;
+     file "/etc/bind/iut-valence.rev.zone";
+     allow-query { any; };
+     allow-transfer { any; };
+};

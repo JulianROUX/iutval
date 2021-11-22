@@ -1,0 +1,49 @@
+$TTL 86400
+@	IN	SOA	ns.iut-valence.net.	root.iut-valence.net. (
+	2019010901
+	11600
+	3600
+	604800
+	86400
+	);
+
+@	NS	ns.iut-valence.net.
+
+100	PTR	ns.iut-valence.net.
+
+101	PTR	www1.iut-valence.net.
+102	PTR	www2.iut-valence.net.
+103	PTR	www3.iut-valence.net.
+104	PTR	www4.iut-valence.net.
+105	PTR	www5.iut-valence.net.
+106	PTR	www6.iut-valence.net.
+107	PTR	www7.iut-valence.net.
+108	PTR	www8.iut-valence.net.
+109	PTR	www9.iut-valence.net.
+110	PTR	www10.iut-valence.net.
+111	PTR	www11.iut-valence.net.
+112	PTR	www12.iut-valence.net.
+113	PTR	www13.iut-valence.net.
+114	PTR	www14.iut-valence.net.
+115	PTR	www15.iut-valence.net.
+116	PTR	www16.iut-valence.net.
+
+117	PTR	www17.iut-valence.net.
+118	PTR	www18.iut-valence.net.
+119	PTR	www19.iut-valence.net.
+120	PTR	www20.iut-valence.net.
+121	PTR	www21.iut-valence.net.
+122	PTR	www22.iut-valence.net.
+123	PTR	www23.iut-valence.net.
+124	PTR	www24.iut-valence.net.
+125	PTR	www25.iut-valence.net.
+126	PTR	www26.iut-valence.net.
+127	PTR	www27.iut-valence.net.
+128	PTR	www28.iut-valence.net.
+129	PTR	www29.iut-valence.net.
+130	PTR	www30.iut-valence.net.
+131	PTR	www31.iut-valence.net.
+132	PTR	www32.iut-valence.net.
+
+133	PTR	www33.iut-valence.net.
+

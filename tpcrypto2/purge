@@ -1,0 +1,2 @@
+#!/bin/sh
+cd demoCA; rm *; cd newcerts; rm *; cd ..; touch index.txt; echo "01" > serial; cd ..;
