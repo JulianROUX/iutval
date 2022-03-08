@@ -1,0 +1,18 @@
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Tue 2022-03-08 16:29:13 CET; 22min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 26097 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 26102 (apache2)
+      Tasks: 55 (limit: 4677)
+     Memory: 19.5M
+        CPU: 98ms
+     CGroup: /system.slice/apache2.service
+             ├─26102 /usr/sbin/apache2 -k start
+             ├─26103 /usr/sbin/apache2 -k start
+             └─26104 /usr/sbin/apache2 -k start
+
+mars 08 16:28:52 VM1.roux.local systemd[1]: Starting The Apache HTTP Server...
+mars 08 16:29:13 VM1.roux.local apachectl[26100]: AH00557: apache2: apr_sockaddr_info_get() failed for VM1.roux.local
+mars 08 16:29:13 VM1.roux.local apachectl[26100]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+mars 08 16:29:13 VM1.roux.local systemd[1]: Started The Apache HTTP Server.

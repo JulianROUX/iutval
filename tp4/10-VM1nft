@@ -1,0 +1,13 @@
+● nftables.service - nftables
+     Loaded: loaded (/lib/systemd/system/nftables.service; disabled; vendor preset: enabled)
+     Active: active (exited) since Tue 2022-03-08 15:24:38 CET; 1h 27min ago
+       Docs: man:nft(8)
+             http://wiki.nftables.org
+   Main PID: 14235 (code=exited, status=0/SUCCESS)
+      Tasks: 0 (limit: 4677)
+     Memory: 0B
+        CPU: 0
+     CGroup: /system.slice/nftables.service
+
+mars 08 15:24:38 VM1.roux.local systemd[1]: Starting nftables...
+mars 08 15:24:38 VM1.roux.local systemd[1]: Finished nftables.

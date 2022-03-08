@@ -1,0 +1,12 @@
+● networking.service - Raise network interfaces
+     Loaded: loaded (/lib/systemd/system/networking.service; enabled; vendor preset: enabled)
+     Active: active (exited) since Tue 2022-03-08 14:02:38 CET; 2h 49min ago
+       Docs: man:interfaces(5)
+   Main PID: 462 (code=exited, status=0/SUCCESS)
+      Tasks: 0 (limit: 4677)
+     Memory: 0B
+        CPU: 0
+     CGroup: /system.slice/networking.service
+
+mars 08 14:02:38 VM1.roux.local systemd[1]: Starting Raise network interfaces...
+mars 08 14:02:38 VM1.roux.local systemd[1]: Finished Raise network interfaces.

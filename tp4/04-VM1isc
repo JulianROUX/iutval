@@ -1,0 +1,20 @@
+● isc-dhcp-server.service - LSB: DHCP server
+     Loaded: loaded (/etc/init.d/isc-dhcp-server; generated)
+     Active: active (running) since Tue 2022-03-08 15:05:39 CET; 1h 46min ago
+       Docs: man:systemd-sysv-generator(8)
+      Tasks: 4 (limit: 4677)
+     Memory: 4.9M
+        CPU: 52ms
+     CGroup: /system.slice/isc-dhcp-server.service
+             └─13839 /usr/sbin/dhcpd -4 -q -cf /etc/dhcp/dhcpd.conf enp0s8
+
+mars 08 16:41:42 VM1.roux.local dhcpd[13839]: DHCPREQUEST for 192.168.0.10 from 08:00:27:cb:f0:85 (jroux-C) via enp0s8
+mars 08 16:41:42 VM1.roux.local dhcpd[13839]: DHCPACK on 192.168.0.10 to 08:00:27:cb:f0:85 (jroux-C) via enp0s8
+mars 08 16:45:24 VM1.roux.local dhcpd[13839]: DHCPREQUEST for 192.168.0.10 from 08:00:27:cb:f0:85 (jroux-C) via enp0s8
+mars 08 16:45:24 VM1.roux.local dhcpd[13839]: DHCPACK on 192.168.0.10 to 08:00:27:cb:f0:85 via enp0s8
+mars 08 16:45:32 VM1.roux.local dhcpd[13839]: DHCPREQUEST for 192.168.0.10 from 08:00:27:cb:f0:85 via enp0s8
+mars 08 16:45:32 VM1.roux.local dhcpd[13839]: DHCPACK on 192.168.0.10 to 08:00:27:cb:f0:85 (jroux-C) via enp0s8
+mars 08 16:49:09 VM1.roux.local dhcpd[13839]: DHCPREQUEST for 192.168.0.10 from 08:00:27:cb:f0:85 (jroux-C) via enp0s8
+mars 08 16:49:09 VM1.roux.local dhcpd[13839]: DHCPACK on 192.168.0.10 to 08:00:27:cb:f0:85 via enp0s8
+mars 08 16:50:09 VM1.roux.local dhcpd[13839]: DHCPREQUEST for 192.168.0.10 from 08:00:27:cb:f0:85 via enp0s8
+mars 08 16:50:09 VM1.roux.local dhcpd[13839]: DHCPACK on 192.168.0.10 to 08:00:27:cb:f0:85 (jroux-C) via enp0s8
