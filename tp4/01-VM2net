@@ -1,0 +1,20 @@
+● NetworkManager.service - Network Manager
+   Loaded: loaded (/usr/lib/systemd/system/NetworkManager.service; enabled; vendor preset: enabled)
+   Active: active (running) since Tue 2022-03-08 08:39:24 EST; 2h 21min ago
+     Docs: man:NetworkManager(8)
+ Main PID: 1292 (NetworkManager)
+    Tasks: 3 (limit: 11401)
+   Memory: 10.5M
+   CGroup: /system.slice/NetworkManager.service
+           └─1292 /usr/sbin/NetworkManager --no-daemon
+
+mars 08 10:11:36 jroux-C.local NetworkManager[1292]: <info>  [1646752296.9076] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:16:36 jroux-C.local NetworkManager[1292]: <info>  [1646752596.9150] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:21:36 jroux-C.local NetworkManager[1292]: <info>  [1646752896.9161] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:26:36 jroux-C.local NetworkManager[1292]: <info>  [1646753196.9174] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:31:36 jroux-C.local NetworkManager[1292]: <info>  [1646753496.9193] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:36:36 jroux-C.local NetworkManager[1292]: <info>  [1646753796.9206] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:41:36 jroux-C.local NetworkManager[1292]: <info>  [1646754096.9225] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:46:36 jroux-C.local NetworkManager[1292]: <info>  [1646754396.9242] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:51:36 jroux-C.local NetworkManager[1292]: <info>  [1646754696.9319] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10
+mars 08 10:56:36 jroux-C.local NetworkManager[1292]: <info>  [1646754996.9338] dhcp4 (enp0s3): state changed extended -> extended, address=192.168.0.10

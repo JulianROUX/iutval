@@ -1,0 +1,18 @@
+● httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; disabled; vendor preset: disabled)
+   Active: active (running) since Tue 2022-03-08 10:34:06 EST; 27min ago
+     Docs: man:httpd.service(8)
+ Main PID: 3725 (httpd)
+   Status: "Running, listening on: port 80"
+    Tasks: 213 (limit: 11401)
+   Memory: 25.1M
+   CGroup: /system.slice/httpd.service
+           ├─3725 /usr/sbin/httpd -DFOREGROUND
+           ├─3732 /usr/sbin/httpd -DFOREGROUND
+           ├─3733 /usr/sbin/httpd -DFOREGROUND
+           ├─3734 /usr/sbin/httpd -DFOREGROUND
+           └─3735 /usr/sbin/httpd -DFOREGROUND
+
+mars 08 10:33:26 jroux-C.local systemd[1]: Starting The Apache HTTP Server...
+mars 08 10:34:06 jroux-C.local systemd[1]: Started The Apache HTTP Server.
+mars 08 10:34:41 jroux-C.local httpd[3725]: Server configured, listening on: port 80
